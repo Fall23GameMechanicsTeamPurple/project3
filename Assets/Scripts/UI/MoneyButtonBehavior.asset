@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: MoneyButtonBehavior
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-21.0,"y":153.0},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"AddMoney","$type":"System.String"}},"position":{"x":-432.0,"y":-66.0},"guid":"e668665a-86e5-4c01-8f0d-9cc157c12a31","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"Money","$type":"System.String"}},"position":{"x":-105.0,"y":-66.0},"guid":"83b8479d-8b35-4adf-907b-ae9998764ba9","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Money","$type":"System.String"}},"position":{"x":-458.0,"y":79.0},"guid":"cb38df63-358e-40b4-95f3-4d020fe314bd","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"inputCount":2,"defaultValues":{},"position":{"x":-256.0,"y":95.0},"guid":"6511fa00-0ce5-458c-b7e7-754460d47859","$version":"A","$type":"Unity.VisualScripting.GenericSum","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"MoneyPerClick","$type":"System.String"},"object":null},"position":{"x":-493.0,"y":208.0},"guid":"e2b33f0e-90a2-4a48-b8c8-1e73793fd613","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"93188913-bc78-4ec9-8822-4c4fd63d12e0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"1","guid":"93d39e0e-ec89-4f05-bd9e-4b1901594c9d","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"0","guid":"7fc16ca9-0e0b-46dd-9a25-94eb31e31ac6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"sum","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"d0c5b0ad-157d-4e17-9a3b-c9dedd258519","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
